@@ -1,0 +1,9 @@
+*{
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+p::first-letter{
+	font-size: 2em;
+	color: red;
+	font-family: Georgia, serif;
+}
