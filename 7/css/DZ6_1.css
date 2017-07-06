@@ -1,12 +1,13 @@
-div{
+.q{
+	position: relative;
 	margin: 30px auto;
-	height: 100px;
-	width: 200px;
+	width: 200px; height: 100px;
 	background: black;
 }
-div::before{
-	content: '';
+.w::before {
+	content: ''; 
 	position: absolute;
-	left: 785px; bottom: 468px;
-	border: 25px solid transparent;	border-right: 50px solid black;
+	right: 200px; top: 25px;
+	border: 25px solid transparent;
+	border-right: 50px solid black;
 }
